@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Informe</title></head>
+<body>
+  <h1>Resumen Financiero Diario</h1>
+  <h2>CEDEARs</h2>
+  <ul>
+    {% for nombre, valor in cedears.items() %}
+      <li><strong>{{ nombre }}</strong>: {{ valor }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Criptomonedas</h2>
+  <ul>
+    {% for nombre, valor in criptos.items() %}
+      <li><strong>{{ nombre }}</strong>: {{ valor }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
