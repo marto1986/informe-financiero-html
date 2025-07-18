@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: informe-financiero
+    schedule: "0 12 * * *"  # Ejecuta todos los días a las 09:00 UTC
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
