@@ -1,0 +1,6 @@
+yfinance
+pandas
+jinja2
+requests
+smtplib
+email-validator
