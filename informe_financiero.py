@@ -8,7 +8,7 @@ from datetime import datetime
 # === CONFIGURACIÓN ===
 REMITENTE = "martinmatias@outlook.com"
 DESTINATARIO = "martinmatias@outlook.com"
-CLAVE_APP_OUTLOOK = "AQUI_TU_CLAVE_APP"  # Reemplazar con tu clave de aplicación Outlook
+CLAVE_APP_OUTLOOK = "Benjamin0803"  # Reemplazar con tu clave de aplicación Outlook
 SMTP_SERVER = "smtp.office365.com"
 SMTP_PORT = 587
 
